@@ -1,25 +1,9 @@
-# Base2Tone-nvim
+This repo is a fork of [Base2Tone-nvim](https://github.com/atelierbram/Base2Tone-nvim)
+by atlelierbram so all credit should go to him!
 
-Collection of duotone colorschemes for Neovim written in lua.
-
-[Base2Tone](https://base2t.one) syntax-highlighting themes are based on [Duotone Themes](https://simurai.com/projects/2016/01/01/duotone-themes) by [Simurai](https://simurai.com/) for Atom.
-
-> “DuoTone themes use only 2 hues (7 shades in total). It tones down less important parts (like punctuation and brackets) and highlights only the important ones. This leads to a more calm color scheme, but still lets you find the stuff you're looking for.”
-
-Base2Tone-nvim is adapted alongside Treesitter. It supports quite a few popular plugins for Neovim like Lualine, Telescope, Nvim-Tree, IndentBlankline, GitSigns and [Marks](https://github.com/chentoast/marks.nvim).
-
-For the most seamless experience within the terminal: these same color schemes are also ported to [iTerm2](https://github.com/atelierbram/Base2Tone-iterm2) and [Hyper](https://github.com/atelierbram/Base2Tone-hyperterm). For terminals which don’t support truecolor please use [Base2Tone-vim](https://github.com/atelierbram/Base2Tone-vim) instead.
-
-***   ***   ***   ***   ***   ***   ***   ***   ***
-
-All colorschemes included come in a dark and light version.
-
-## Screenshot
-![Base2Tone-Nvim_Evening-Dark](https://atelierbram.github.io/syntax-highlighting/assets/img/base2tone-nvim_evening-dark.png)
-<br>Base2Tone_Evening_dark
-
-![Base2Tone-Nvim_Morning-Light](https://atelierbram.github.io/syntax-highlighting/assets/img/base2tone-nvim_morning-light.png)
-<br>Base2Tone-Nvim_Morning-Light
+I personally didn't like the sidebar being a different color to the main
+background so all this repo does is set the sidebar to be the same
+color as the background color for light and dark themes.
 
 ## Installation
 
@@ -27,7 +11,7 @@ Install these colorschemes like you would any other plugin.
 With Packer:
 
 ```lua
-use({ "atelierbram/Base2Tone-nvim" })
+use({ "lukehayes/LDH-Base2Tone-nvim" })
 ```
 
 ## Activate a colorscheme in a Lua config file:
@@ -80,8 +64,4 @@ vim.cmd("colorscheme base2tone_evening_dark")
 ```
 
 ### Credits
-- [Simurai](https://simurai.com/), for these themes are based on [Duotone Themes](https://simurai.com/projects/2016/01/01/duotone-themes) for Atom.
-- [Christian Chiarulli](https://github.com/ChristianChiarulli/) for [colorgen-nvim](https://github.com/ChristianChiarulli/colorgen-nvim), a colorscheme generator for Neovim written in Rust.
-
-### License
-Released under [MIT Licence](https://atelierbram.mit-license.org)
+- [atelierbram](https://github.com/atelierbram)
